@@ -15,12 +15,9 @@ The dataset was given by Jedha [New York City pickups](https://full-stack-bigdat
 
 ## Prerequisites
 
-### Build database
-
-
 ### Dependencies
 - The source code is written in Python 3.
-- The python packages can be installed with pip : `pip3 install -R requirements.txt`
+- The python packages can be installed with pip : `pip3 install -R requirements.txt` TODO add requirements.txt
 
 ## Usage
 ### Explore_dataset.ipynb
