@@ -20,13 +20,14 @@ The dataset was given by Jedha [New York City pickups](https://full-stack-bigdat
 - The python packages can be installed with pip : `pip3 install -R requirements.txt` TODO add requirements.txt
 
 ## Usage
-### Explore_dataset.ipynb
-**Automates some computations of basic statistics and plots for each feature in the dataset**
+### Apply_models.ipynb
+**Trains clustering algorithms (K-means vs DBScan) and compare their performances. Then use the best one to output hot zones.**
 - Input file : TODO.csv
+- Output file : TODO output result.csv
 
-### Train_models.ipynb
-**Trains clustering algorithms (K-means vs DBScan) and compare their performances**
-- Input file : TODO.csv
+### Visualise_results.ipynb
+**Visualise results that could be used by uber drivers**
+- Input file : TODO output result.csv
 
 ## Team contributors
 Quentin Gottafray
