@@ -20,9 +20,12 @@ The dataset was given by Jedha [New York City pickups](https://full-stack-bigdat
 - The python packages can be installed with pip : `pip3 install -R requirements.txt` TODO add requirements.txt
 
 ## Usage
+### Extract dataset from archive
+You should extract uber-raw-data-apr14.csv located in uber-trip-data from uber-trip-data.zip
+
 ### Apply_models.ipynb
 **Trains clustering algorithms (K-means vs DBScan) and compare their performances. Then use the best one to output hot zones.**
-- Input file : TODO.csv
+- Input file : uber-raw-data-apr14.csv
 - Output file : TODO output result.csv
 
 ### Visualise_results.ipynb
