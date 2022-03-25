@@ -9,24 +9,17 @@ The objective is to create algorithms that will determine where are the hot-zone
 - Visualize results on a nice dashboard
 
 ## Dataset
-The dataset was given by Jedha [New York City pickups](https://full-stack-bigdata-datasets.s3.eu-west-3.amazonaws.com/Machine+Learning+non+Supervis%C3%A9/Projects/uber-trip-data.zip) [1].
+The dataset was given by Jedha [New York City pickups](https://full-stack-bigdata-datasets.s3.eu-west-3.amazonaws.com/Machine+Learning+non+Supervis%C3%A9/Projects/uber-trip-data.zip).
 
 ## Prerequisites
 
 ### Build database
-- Request access to the MIMIC-III dataset : https://mimic.physionet.org/gettingstarted/access/
-- Download the MIMIC-III GitHub repository : https://github.com/MIT-LCP/mimic-code/
-- Follow instructions to build the SQL database : https://github.com/MIT-LCP/mimic-code/tree/master/buildmimic/postgres
-- Build an additional table. This will create a psql table named rrt : 
-```cd mimic-code/concepts/ 
-psql -U postgres -d mimic -a -f rrt.sql
+
 ```
 
 ### Dependencies
 - The source code is written in Python 3.
 - The python packages can be installed with pip : `pip3 install -R requirements.txt`
-- To use Keras models, first install tensorflow : https://www.tensorflow.org/install/
-- WARNING : XGBoost installation with pip is currently disabled for Windows. Instructions for Windows users : https://xgboost.readthedocs.io/en/latest/build.html
 
 ## Usage
 ### Make_dataset.ipynb 
