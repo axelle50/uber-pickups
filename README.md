@@ -15,36 +15,22 @@ The dataset was given by Jedha [New York City pickups](https://full-stack-bigdat
 
 ### Build database
 
-```
 
 ### Dependencies
 - The source code is written in Python 3.
 - The python packages can be installed with pip : `pip3 install -R requirements.txt`
 
 ## Usage
-### Make_dataset.ipynb 
-**Extracts the dataset from the SQL database**
-- Input file : features_info.csv
-- Output file : dataset_with_labels.csv (not hosted on this repository, you have to create it yourself)
-
 ### Explore_dataset.ipynb
 **Automates some computations of basic statistics and plots for each feature in the dataset**
-- Input file : dataset_with_labels.csv
+- Input file : TODO.csv
 
 ### Train_models.ipynb
-**Trains some multiclass classifiers from different packages (scikit-learn, keras, XGBoost) and compare their performances**
-- Input file : dataset_with_labels.csv
+**Trains clustering algorithms (K-means vs DBScan) and compare their performances**
+- Input file : TODO.csv
 
 ## Team contributors
-R. Barthélémy
-A. Beinrucker
-L. Cetinsoy
-B. Chousterman
-S. Falini
-M. Jamme
-M. Kovanis
-A. Mutschler
-M. Naeem
+Quentin Gottafray
 
 ## References
-[1] MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. 
+
