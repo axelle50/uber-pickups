@@ -1,6 +1,6 @@
 # Project with Jedha
 
-Imagine working for Uber: 
+Imagine working for Uber: <br />
 "One of the main pain point that Uber's team found is that sometimes drivers are not around when users need them. [...] Therefore, Uber's data team would like to work on a project where their app would recommend hot-zones in major cities to be in at any given time of day." 
 Paris on April 2022. 
 
