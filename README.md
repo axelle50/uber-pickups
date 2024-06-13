@@ -33,7 +33,7 @@ You should extract uber-raw-data-apr14.csv located in uber-trip-data from uber-t
 - Input file : TODO output result.csv
 
 ## Team contributors
-Quentin Gottafray
+Axelle Gottafray
 
 ## References
 
